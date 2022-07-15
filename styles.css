@@ -1,0 +1,187 @@
+/* Reset Code*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/**** Sites CSS ****/
+/* Index Code */
+
+* {
+  text-decoration: none;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+}
+
+header .header-brand {
+  font-family: catamaran;
+  font-size: 24 px;
+  font-weight: 900;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  margin: 21px 0;
+  padding: 20px 15px;
+  line-height: 3px;
+  border-right: 3px solid #111;
+}
+
+header nav ul {
+  width: fit-content;
+  display: flex;
+  margin: 0 auto;
+  color: #111;
+}
+
+header nav ul li {
+  display: flex;
+  list-style: none;
+  padding: 0 16px;
+}
+
+header nav ul li a {
+  font-size: 16 px;
+  font-weight: 550;
+  color: #111;
+  text-transform: uppercase;
+  margin: 20px 0;
+  line-height: 41px;
+}
+
+.index-content {
+  display: flex;
+  overflow: hidden;
+  font-size: 30px;
+}
+
+.index-body {
+  position: absolute;
+  top: 100px;
+  bottom: 40px;
+  width: 100%;
+ }
+ 
+
+.index-title {
+  font-family: catamaran;
+  font-weight: 600;
+  text-align: center;
+}
+
+.index-recipe {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color: #111;
+  text-transform: uppercase;
+  width: 100%;
+  height: fit-content;
+  padding: 20px;
+}
+
+.index-recipe ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.index-recipe1 {
+  display: flex;
+  border: 2px solid #111;
+  width: 250px;
+  padding: 10px 0px 10px 10px;
+  text-align: center;
+  margin: 0px 10px 10px 0px;
+}
+
+.index-recipe2 {
+  border: 2px solid #111;
+  width: 250px;
+  padding: 10px 0px 10px 10px;
+  padding-top: 20px;
+  text-align: center;
+  margin: 0px 10px 10px 0px;
+}
+
+.index-recipe2 a {
+  height: 40px;
+}
+
+.index-recipe3 {
+  border: 2px solid #111;
+  width: 250px;
+  padding: 10px 0px 10px 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.index-footer {
+  display: none;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+
+}
