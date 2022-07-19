@@ -181,3 +181,65 @@ header nav ul li a {
 
 
 }
+
+
+/* Recipes CSS */
+
+.body-title {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.recipe-pic {
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 3px solid #112747;
+  margin-top: 25px;
+  
+}
+
+.body-ingredients {
+  float: left;
+  margin: 25px;
+  padding: 15px;
+  border: 2px solid #111;
+}
+
+.body-ingredients h2 {
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 13px;
+  border-bottom: 1px solid #111;
+}
+
+.body-directions {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-directions h2 {
+  font-size: 46px;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.body-directions h3 {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.body-directions div {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
